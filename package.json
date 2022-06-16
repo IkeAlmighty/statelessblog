@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "PORT=3000 nodemon src/index.js",
-    "start": "PORT=80 node src/index.js"
+    "start": "PORT=3000 node src/index.js"
   },
   "author": "IkeAlmighty",
   "license": "ISC",
