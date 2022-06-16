@@ -1,0 +1,17 @@
+{
+  "name": "statelessblog",
+  "version": "1.0.0",
+  "description": "a blog that stores all content for each page compressed, in the url",
+  "main": "index.js",
+  "scripts": {
+    "dev": "PORT=3000 nodemon src/index.js"
+  },
+  "author": "IkeAlmighty",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "lz-string": "^1.4.4",
+    "nodemon": "^2.0.16",
+    "pug": "^3.0.2"
+  }
+}
